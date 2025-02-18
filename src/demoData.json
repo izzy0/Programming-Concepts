@@ -1,0 +1,66 @@
+{
+  "demo": {
+    "parent1": {
+      "config": {
+        "enabled": false
+      },
+      "children": {
+        "level1": {
+          "data": "Data L1P1",
+          "level2": {
+            "data": "Data L2P1",
+            "level3": {
+              "info": "Info L3P1"
+            }
+          }
+        }
+      }
+    },
+    "parent2": {
+      "config": {
+        "enabled": false
+      },
+      "children": {
+        "level1": {
+          "data": "Data L1P2",
+          "level2": {
+            "data": "Data L2P2",
+            "level3": {
+              "info": "Info L3P2"
+            }
+          }
+        }
+      }
+    },
+    "parent3": {
+      "config": {
+        "enabled": true
+      },
+      "children": {
+        "level1": {
+          "data": "Data L1P3",
+          "level2": {
+            "data": "Data L2P3",
+            "level3": {
+              "info": "Info L3P3"
+            }
+          }
+        }
+      }
+    }
+  },
+  "parent4": {
+    "enabled": false,
+    "children": {
+      "level1": {
+        "data": "Data L1P4",
+        "level2": {
+          "data": "Data L2P4",
+          "level3": {
+            "info": "Info L3P4"
+          }
+        }
+      }
+    }
+  }
+}
